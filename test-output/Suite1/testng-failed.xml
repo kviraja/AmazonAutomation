@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AmazonAutomation(failed)">
+    <classes>
+      <class name="com.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateLoginFunction"/>
+          <include name="setUp"/>
+          <include name="validateLoginPageTitle"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginPageTest -->
+      <class name="com.qa.testcases.FirstTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="displayTitle"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.qa.testcases.FirstTest -->
+      <class name="com.qa.testcases.SecondTest">
+        <methods>
+          <include name="sampleTest"/>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.SecondTest -->
+    </classes>
+  </test> <!-- AmazonAutomation(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,5 @@
+com/amazon/qa/pages/LoginPage.class
+com/amazon/qa/pages/CustomerService.class
+com/amazon/qa/pages/Last12DaysDeals.class
+com/amazon/qa/base/TestBase.class
+com/amazon/qa/pages/HomePage.class
